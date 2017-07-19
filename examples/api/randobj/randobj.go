@@ -1,6 +1,7 @@
 package main
 
 import (
+	"context"
 	"fmt"
 	"io"
 	"net/http"
@@ -10,7 +11,6 @@ import (
 	"github.com/ipfs/go-ipfs/core/coreunix"
 	"github.com/ipfs/go-ipfs/path"
 	"github.com/ipfs/go-ipfs/repo/fsrepo"
-	"golang.org/x/net/context"
 )
 
 var gnode *core.IpfsNode
